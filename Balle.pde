@@ -1,7 +1,7 @@
 class Balle {
   PVector position, vitesse, acceleration;
   int rayon = 7;
-  int precision = 100;
+  int precision = 12;
   Balle(float x, float y) {
     position = new PVector(x, y);
     vitesse = new PVector(0, 0); 

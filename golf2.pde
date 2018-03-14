@@ -17,9 +17,9 @@ void init() {
   fg = loadImage ("golf_fg_1.png");
   tp = loadImage ("golf_tp_1.png");
   trou = new PVector(538, 352);
-  //balle = new Balle(500, 330); // près du trou
-  balle = new Balle(900, 200); // près du sable
-  //balle = new Balle(140, 670); // au départ
+  //balle = new Balle(500, 330); // TEST près du trou
+  //balle = new Balle(900, 200); // TEST près du sable
+  balle = new Balle(140, 670); // au départ
   coup = 0;
 }
 void draw()
@@ -50,6 +50,6 @@ void draw()
     textSize(128);
     fill(255, 180);
     text("GAGNÉ !", width/2, height/2);
-    if (mouseButton==RIGHT) init();
   }
+  if (mouseButton==RIGHT) init();
 }
